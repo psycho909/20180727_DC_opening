@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>7/27 全新開幕！快來體驗：新潮 3C 科技∣ 全國電子DigitalCity中華東店</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="./css/swiper.min.css">
+	<link rel="stylesheet" href="./css/index.css">
+	<script src="./js/jquery-3.1.1.min.js"></script>
+	<script src="./js/jquery.fancybox.min.js"></script>
+	<script src="./js/swiper.min.js"></script>
+</head>
+<body>
+<div id="app">
+	<header></header>
+	<nav>
+		<div class="nav-wrap">
+			<ul>
+				<li><a href="index.html"># 活動首頁</a></li>
+				<li><a href="openingdm.html"># 開幕慶手冊</a></li>
+				<li><a href="charge.html"># 門號資費方案</a></li>
+				<li><a href="bank.html"># 銀行加碼贈好禮</a></li>
+				<li><a href="http://www.elifemall.com.tw/allnewweb/index.php" target="_blank"># 全國電子官網</a></li>
+			</ul>
+		</div>
+	</nav>
+	<main>
+		<section class="activity">
+			<img src="./images/dm/5.jpg" alt="">
+			<img class="bottom" src="./images/bottom.jpg" alt="">
+		</section>
+		<section class="photo">
+			<div class="photo-swiper swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a data-fancybox="gallery" href="./images/photo/1.jpg"><img src="./images/photo/1.jpg"></a>
+					</div>
+					<div class="swiper-slide">
+						<a data-fancybox="gallery" href="./images/photo/2.jpg"><img src="./images/photo/2.jpg"></a>
+					</div>
+					<div class="swiper-slide">
+						<a data-fancybox="gallery" href="./images/photo/3.jpg"><img src="./images/photo/3.jpg"></a>
+					</div>
+					<div class="swiper-slide">
+						<a data-fancybox="gallery" href="./images/photo/4.jpg"><img src="./images/photo/4.jpg"></a>
+					</div>
+					<div class="swiper-slide">
+						<a data-fancybox="gallery" href="./images/photo/5.jpg"><img src="./images/photo/5.jpg"></a>
+					</div>
+					<div class="swiper-slide">
+						<a data-fancybox="gallery" href="./images/photo/6.jpg"><img src="./images/photo/6.jpg"></a>
+					</div>
+					<div class="swiper-slide">
+						<a data-fancybox="gallery" href="./images/photo/7.jpg"><img src="./images/photo/7.jpg"></a>
+					</div>
+					<div class="swiper-slide">
+						<a data-fancybox="gallery" href="./images/photo/8.jpg"><img src="./images/photo/8.jpg"></a>
+					</div>
+					<div class="swiper-slide">
+						<a data-fancybox="gallery" href="./images/photo/9.jpg"><img src="./images/photo/9.jpg"></a>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+	</main>
+	<footer>全國電子股份有限公司 Copyright © elifemall.com.tw All rights reserved.</footer>
+</div>
+	<script src="./js/app.js"></script>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			slidesPerView: 3,
+			spaceBetween: 30,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+			breakpoints: {
+				1024: {
+					slidesPerView: 4,
+					spaceBetween: 40,
+				},
+				768: {
+					slidesPerView: 3,
+					spaceBetween: 30,
+				},
+				640: {
+					slidesPerView: 2,
+					spaceBetween: 20,
+				},
+				320: {
+					slidesPerView: 1,
+					spaceBetween: 10,
+				}
+		}
+		});
+	</script>
+</body>
+</html>
